@@ -6,7 +6,7 @@
 }
 
 html {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Gilroy';
     scroll-behavior: smooth;
     
 }
@@ -19,12 +19,20 @@ body {
   
 }
 
-.grid__center{
-    width: 1424px;
+.fg_center{
+    width: 1224px;
     height: auto;
     margin: auto;
     box-sizing: border-box;
 }
+
+
+.bg_main{
+    max-width: 100%;
+    height: 100%;
+    background: #0F1E31;
+}
+ 
 
 a{
     text-decoration: none;
@@ -38,72 +46,74 @@ ul {
 .nav {
     width: 100%;
     height: 100px;
-    background: #333646;
+    background: #0F1E31;
 }
 
-.sub__nav {
+.nav_bar {
+    max-width: 100%;
+    height: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    height: 100%;
+    justify-content: space-between;
 }
 
-.home{
-    width: 100%;
-    height: 100%;
-    display: flex;
-}
-.img-logo {
-    width: 120px;
-    height: 45px;
-}
-
-.nav__list {
+.logo {
     width: auto;
     height: auto;
-
+}
+.logo a{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 50px;
+    color: #FFFFFF;
 }
 
-.items {
-    width: 100%;
+.links {
+    width: auto;
+    max-height: 100%;
+}
+input[type=radio]
+{
+    display: none;
+}
+.form {
+    width: auto;
     height: auto;
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-around;
+    column-gap: 100px;
 }
 
-.items .list {
-    /* width: 100%; */
-    height: 100%;
-    margin: 0px 25px;
-    transition: .3s ease all;
-}
-.items .list a {
+.form .link_1 label 
+{
     font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 30px;
-    color: #5A5C6A;
-    transition: .5s ease all;
-}
-.items .list:hover a {
-    color: #eeeeee;
+    font-weight: normal;
+    font-size: 16px;
+    /* line-height: 100px; */
+    color: #FFFFFF;
+    cursor: pointer;
 }
 
-.box {
+
+.bars {
     display: none;
 }
 
-.hire__2{
-    margin: 0px !important;
-    margin: 15px 0px !important;
-}
+
+
+
+
+
+
+
 
 .active::before {
-    content: "";
-    position: absolute;
-    width: 10px;
-    height: 10px;
+    content: "&DownArrow;";
+    position: relative;
+    width: 1px;
+    height: 24px;
     top: 70px;
     background: #F8C40C;
     border-radius: 50%;
@@ -114,7 +124,7 @@ ul {
     color: #eeeeee !important;
 }
 
-   
+
 /* = sticky header */
 .sticky {
     z-index: 9999;
@@ -215,112 +225,137 @@ ul {
 /* ================= END NAVIGATION SECTION  ============ */
 
 /* -==== Constant objecct design-====== */
-.sub__title__4,
-.sub__title__3,
-.sub__title__2,
-.sub__title__1,
-.sub__title {
-    width: auto;
-    height: auto;
-    text-align: center;
-    margin: auto;
-}
-.sub__title__4 .st__txt,
-.sub__title__3 .st__txt,
-.sub__title__2 .st__txt,
-.sub__title__1 .st__txt,
-.sub__title .st__txt{
-    font-weight: 500;
-    font-size: 40px;
-    line-height: 36px;
-    color: #EEEEEE;
-}
 
-.sub__title__4::after,
-.sub__title__3::after,
-.sub__title__2::after,
-.sub__title__1::after,
-.sub__title::after{
-    content: "";
-    position: absolute;
-    width: 116px;
-    height: 4px;
-    margin-left: 8px;
-    background: #F8C40C;
-    border-radius: 50px;
-    transition: .5s ease all;
-}
-.sub__title__4:hover::after,
-.sub__title__3:hover::after,
-.sub__title__2:hover::after,
-.sub__title__1:hover::after,
-.sub__title:hover::after{
-    content: "";
-    width: 0px;
-}
-
-.sub__title__4 .line,
-.sub__title__3 .line,
-.sub__title__2 .line,
-.sub__title__1 .line,
-.sub__title .line {
-    width: 116px;
-    height: 4px;
-    left: 32px;
-    background: #F8C40C;
-    border-radius: 50px;
+.heroe_1 {
     display: flex;
-    margin: 5px auto;
-    position: relative;
-    transition: .5s ease all;
-}
-.sub__title__4:hover .line,
-.sub__title__3:hover .line,
-.sub__title__2:hover .line,
-.sub__title__1:hover .line,
-.sub__title:hover .line {
-    width: 0px;
-}
-
-
-/* ================= HEROE SECTION  ============ */
-.heroe {
-    background: #333646;
-}
-.hero__main {
-    display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: flex-start;
-    padding-top: 75px;
 }
-.headline {
+
+.right_sec,
+.left_sec {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 60px;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.purple {
+    color: #E0245E;
+}
+.yellow {
+    color: #EAA221;
+}
+
+.line {
+    width: 177px;
+    height: 4px;
+    background: white;
+    border: none;
+    outline: none;
+    margin: 50px 0px;
+    display: block;
+    border-radius: 50px;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    /* justify-content: stretch; */
+    column-gap: 40px;
     width: auto;
     height: auto;
-    margin-top: 55px;
 }
-.head {
+.caption > h3{
+    font-style: normal;
     font-weight: 600;
-    font-size: 70px;
-    line-height: 124%;
-    letter-spacing: -0.025em;
-    color: #EEEEEE;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
-.banner {
-    width: 100%;
-    height: 558px;
-    overflow: hidden;
+.caption > i{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
 }
 
+.icons_top {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    column-gap: 31px;
+    width: auto;
+    height: auto;
+}
 
-.back_image {
+.icons_top a > i{
+    font-size: 28px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+}
+.right_sec > img {
+    max-width: 100%;
+    height: auto;
     background-size: cover;
     background-position: bottom;
     box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    background-image: url(../img/Developer.png);
-    background-repeat: no-repeat;
+    background: white;
+    border-radius: 10px;
 }
+
+.right_sec {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.d_img {
+    box-sizing: border-box;
+    width: 450px;
+    height: 536px;
+    background-image: url(../img/me.png);
+    background-repeat: no-repeat;
+    background-position-x: -75px;
+    background-position-y: -50px;
+    background-size: auto;
+    border: 10px solid white;
+    border-radius: 14px;
+    
+}
+
+.icons_top  {
+    display: flex;
+    align-items: center;
+    column-gap: 50px;
+}
+
+.s_t {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 25px 0px;
+}
+/* ================= HEROE SECTION  ============ */
+
+
+
+
+
+
+
+
 .banner img {
     width: 856px;
     height: 558px;

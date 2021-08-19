@@ -112,3 +112,22 @@ scroll_item.reveal('.contact__main', {delay: 100})
 
 
 
+
+function sendRequest(e) 
+{
+    val = e.value
+    let xhtp = new XMLHttpRequest();
+    
+    xhtp.onreadystatechange = function () 
+    {
+        if (this.readyState == 4 && this.status == 200) {
+            document.querySelector('.body').innerHTML = this.responseText;
+            // alert(this.responseText);
+        }
+    }
+    // alert(val);
+    xhtp.open('GET', 'index.php?item='+val, true);
+    xhtp.send();
+
+   
+}

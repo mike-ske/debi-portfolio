@@ -1,36 +1,30 @@
 <!-- ============ NAV SECTION ============= -->
-<section class="nav" id="nav">
-    <nav class="sub__nav grid__center">
-        <div class="main__logo">
-            <a href="index.php" class="home">
-                <img src="img/logo.png" alt="Designer Logo" class="img-logo">
-            </a>
+<section class="bg_main nav">
+    <div class="fg_center nav_bar">
+        <div class="logo">
+            <a href="./" class="logo">ADEYEMI DEBORAH</a>
         </div>
 
-        <div class="nav__list">
-            <ul class="items">
-                <li class="list active" id="list">
-                    <a href="#about">About</a>
-                </li>
-                <li class="list">
-                    <a href="#skills">Skills</a>
-                </li>
-                <li class="list">
-                    <a href="#works">Work</a>
-                </li>
-                <li class="list">
-                    <a href="#expert">Expertise</a> 
-                </li>
-                <li class="list">
-                    <a href="#contact">Hire me</a> 
-                </li>
-            </ul>
+        <div class="links">
+
+            <div class="form">
+                <div class="link_1 .active">
+                    <label for="project" class="p1">My Projects</label>
+                    <input type="radio" name="page" id="project" value="project" onclick="sendRequest(this)">
+                </div>
+             
+                <div class="link_1">
+                    <label for="contact" class="c1">Contact Me</label>
+                    <input type="radio" name="page" id="contact" value="contact" onclick="sendRequest(this)">
+                </div>
+            </div>
+
+            
         </div>
 
-        <div class="box" id="toggle" > 
-            <i class='bx bx-menu-alt-left bx-rotate-180' ></i>
+        <div class="bars">
+            <i class='bx bx-menu box_icon' id="box_i"></i>
         </div>
-    </nav>
+    </div>
 </section>
-
 <!-- ============ END NAV SECTION ============= -->
