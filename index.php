@@ -1,8 +1,10 @@
 
 
-
-<?php  require 'header.php'?>
+<?php 
+ require 'header.php'
+ ?>
 <?php  require 'nav.php'?>
+
 
 
 <?php
@@ -32,9 +34,9 @@ else
     <div class="fg_center heroe_1">
         <div class="left_sec">
             <h1 class="h1">
-                I am a <span class="purple" style="font-weight:600;">UI/UX (Product) Designer</span> based in Lagos, Nigeria. 
-                I am passionate about <span class="yellow" style="font-weight:600;">designing</span>  and love 
-                <span class="yellow" style="font-weight:600;">making complex issues look simple.</span> 
+                I am a <span class="purple" style="font-weight:700;">UI/UX (Product) Designer</span> based in Lagos, Nigeria. 
+                I am passionate about <span class="yellow" style="font-weight:700;">designing</span>  and love 
+                <span class="yellow" style="font-weight:700;">making complex issues look simple.</span> 
             </h1>
 
             <span class="line"></span>
@@ -42,23 +44,23 @@ else
 
             <div class="caption">
                 <h3 class="text">Software used:</h3>
-                <i class="figma">icon</i>
-                <i class="sketch">icon</i>
-                <i class="xd">icon</i>
+                <img class="img_1" src="img/w-img/icons8-figma-48.png" alt="">
+                <img src="img/w-img/logos_sketch.png">
+                <img src="img/w-img/xd.png">
             </div>
 
             <div class="icons_top">
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="linkedin">iconv</i>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin-square' ></i>
                 </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="behance">iconv</i>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-behance' ></i>
                 </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="twitter">iconv</i>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-twitter' ></i>
                 </a>
-                <a href="http://" target="_blank" rel="noopener noreferrer">
-                    <i class="dribble">iconv</i>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-dribbble' ></i>
                 </a>
             </div>
         </div>

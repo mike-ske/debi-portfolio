@@ -8,13 +8,12 @@
     <div class="circli_3"></div>
     <div class="circli_4"></div>
 
-    <div class="fg_center">
+    <div class="fg_center heroe_1">
         <div class="left_sec">
-            <h1 class="h1 flex">
-                Let’s work together
-                <span class="line"></span>
-            </h1>
-
+            <div class="project_head">
+                <h1 class="head_1">Let’s work together</h1>
+                <div class="line_1"></div>
+            </div>
             <p class="p_hd">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nunc tincidunt hendrerit pellentesque ornare tincidunt ipsum. 
@@ -26,7 +25,7 @@
             
             <div class="text_1">
                 <p>
-                Tell me more about the project by sending a message to <span class="yellow">deborahadeyemi96@gmail.com</span> 
+                Tell me more about the project by sending a message to <span class="yellow1">deborahadeyemi96@gmail.com</span> 
                 </p>
             </div>
 
@@ -34,7 +33,7 @@
         </div>
         
         <div class="right_sec">
-            <img src="img/me.png" alt="">
+            <div class="d_img"></div>
         </div>
     </div>
 </section>

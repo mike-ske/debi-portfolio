@@ -8,14 +8,14 @@
         <div class="links">
 
             <div class="form">
-                <div class="link_1 .active">
+                <div class="link_1">
                     <label for="project" class="p1">My Projects</label>
-                    <input type="radio" name="page" id="project" value="project" onclick="sendRequest(this)">
+                    <input type="radio" id="project" name="item" value="project" onclick="sendRequest(this)">
                 </div>
              
                 <div class="link_1">
                     <label for="contact" class="c1">Contact Me</label>
-                    <input type="radio" name="page" id="contact" value="contact" onclick="sendRequest(this)">
+                    <input type="radio" id="contact" name="item" value="contact" onclick="sendRequest(this)">
                 </div>
             </div>
 
