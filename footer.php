@@ -6,6 +6,14 @@
     <div class="circli_2"></div>
     <div class="circli_3"></div>
     <div class="circli_4"></div>
+    <div class="circli_5"></div>
+    <div class="circli_6"></div>
+    <!-- <div class="circli_7"></div>
+    <div class="circli_8"></div>
+    <div class="circli_9"></div>
+    <div class="circli_10"></div>
+    <div class="circli_11"></div>
+    <div class="circli_12"></div> -->
 
     <div class="fg_center">
 
@@ -68,7 +76,7 @@
     let slide = new Splide(elms, {
         type: 'loop',
         autoplay: true,
-        // autoWidth: true,
+        autoWidth: true,
     });
 
     slide.mount();
