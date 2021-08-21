@@ -6,34 +6,34 @@
 Code for active menu
 */
 
-let nav__link = document.getElementsByClassName("list");
-// let active = document.getElementsByClassName("active")[0];
-let main_menu = document.getElementsByClassName("nav__list")[0];
+// let nav__link = document.getElementsByClassName("list");
+// // let active = document.getElementsByClassName("active")[0];
+// let main_menu = document.getElementsByClassName("nav__list")[0];
 
-for (let i = 0; i < nav__link.length; i++) {
-    const list__item = nav__link[i];
+// for (let i = 0; i < nav__link.length; i++) {
+//     const list__item = nav__link[i];
 
-    list__item.addEventListener("click", function () {
-        document.getElementsByClassName("active")[0].classList.remove("active");
-        nav__link[i].classList.add("active");
-    })
+//     list__item.addEventListener("click", function () {
+//         document.getElementsByClassName("active")[0].classList.remove("active");
+//         nav__link[i].classList.add("active");
+//     })
     
-    // ==== CODE TO HIDE THE MENU WHEN TABS ARE CLICKED
-    list__item.addEventListener("click", function () {
-        main_menu.classList.remove("show");
-    })
-}
+//     // ==== CODE TO HIDE THE MENU WHEN TABS ARE CLICKED
+//     list__item.addEventListener("click", function () {
+//         main_menu.classList.remove("show");
+//     })
+// }
 
 /* 
 ============== CODE TO HIDE AND SHOW MENU ========
 */
 
-// let main__nav = document.getElementsByClassName("nav__list")[0];
-// let nav__icon = document.getElementsByClassName("box")[0];
+let main__nav = document.getElementsByClassName("links")[0];
+let nav__icon = document.getElementsByClassName("bars")[0];
 
-// nav__icon.addEventListener('click', function () {
-//     main__nav.classList.toggle("show");
-// })
+nav__icon.addEventListener('click', function () {
+    main__nav.classList.toggle("show");
+})
 
 // ============ CODE TO SET ACTIVE MENU FOOTER SECTION
 
@@ -52,15 +52,15 @@ for (let i = 0; i < nav__link.length; i++) {
 
 // ========= set scroll nav =====
 
-// window.addEventListener("scroll", function () {
-//     document.getElementById("nav").classList.add("sticky");
-//     const currentScroll = window.pageYOffset;
-//     if (currentScroll <= 0) {
-//     document.getElementById("nav").classList.remove("sticky");
+window.addEventListener("scroll", function () {
+    document.getElementById("nav").classList.add("sticky");
+    const currentScroll = window.pageYOffset;
+    if (currentScroll <= 0) {
+    document.getElementById("nav").classList.remove("sticky");
      
-//     }
-//     return;
-// });
+    }
+    return;
+});
 
 
 //  ===== code for project type menu
@@ -75,43 +75,10 @@ for (let i = 0; i < nav__link.length; i++) {
 
 
 
-
-// SMOOTH SCROLL ANNIMATION WITH SCROLL REVEAL
-
-
-// const scroll_item = ScrollReveal(
-//     {
-//         origin: 'bottom',
-//         distance: '70px',
-//         duration: 400,
-//         reset: true
-//     }
-// )
-// // start assigning the scroll animation to all div containers
-
-
-//  // =========== INDEX PAGE ANNIMATION ====
-// scroll_item.reveal('.hero__main', {delay: 100})
-// // scroll_item.reveal('.left_icon', {interval: 200})
-// scroll_item.reveal('.about__main', {delay: 100})
-// scroll_item.reveal('.skills__main', {delay: 100})
-// scroll_item.reveal('.outer__bx', {interval: 100})
-// scroll_item.reveal('.works__main', {delay: 100})
-// scroll_item.reveal('.grid__box', {interval: 100})
-// scroll_item.reveal('.expert__main', {delay: 100})
-// scroll_item.reveal('.box1', {interval: 100})
-
-// scroll_item.reveal('.contact__main', {delay: 100})
-
-// scroll_item.reveal('.contact__main', {delay: 100})
-// //  ========= CONTACT PAGE ANIMATION =====
-
-
-
-
 function sendRequest(e) 
 {
     val = e.value
+
     let xhtp = new XMLHttpRequest();
     
     xhtp.onreadystatechange = function () 
@@ -128,3 +95,10 @@ function sendRequest(e)
    
 }
 
+anime({
+    targets: '.circli_1',
+    translateX: 250,
+    rotate: '1turn',
+    backgroundColor: '#FFF',
+    duration: 800
+  });

@@ -1,4 +1,5 @@
 <!-- ============ NAV SECTION ============= -->
+
 <section class="bg_main nav">
     <div class="fg_center nav_bar">
         <div class="logo">
@@ -9,16 +10,31 @@
 
             <div class="form">
                 <div class="link_1">
-                    <label for="project" class="p1">My Projects</label>
-                    <input type="radio" id="project" name="item" value="project" onclick="sendRequest(this)">
+                    <span>&downarrow;</span> 
+                    <a for="project" href="projects" class="p1">My Projects</a>
                 </div>
              
                 <div class="link_1">
-                    <label for="contact" class="c1">Contact Me</label>
-                    <input type="radio" id="contact" name="item" value="contact" onclick="sendRequest(this)">
+                    <span>&downarrow;</span> 
+                    <a for="contact" href="contact" class="c1">Contact Me</a>
+                   
                 </div>
             </div>
 
+            <div class="icons_top sub_ico" style="display: none;">
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-linkedin-square' ></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-behance' ></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="#" target="_blank" rel="noopener noreferrer">
+                    <i class='bx bxl-dribbble' ></i>
+                </a>
+            </div>
             
         </div>
 

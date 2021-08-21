@@ -1,16 +1,42 @@
 <!-- ============ FOTTER SECTION ============= -->
 
 <section class="side_text bg_main">
-        <div class="right_sec foot_img">
-            <img src="img/thumbs-up-hand-gesture 1.png" alt="">
-        </div>
+
+    <div class="circli_1"></div>
+    <div class="circli_2"></div>
+    <div class="circli_3"></div>
+    <div class="circli_4"></div>
+
     <div class="fg_center">
+
+        <div class="caption1 caption">
+            <h3 class="text">Software used:</h3>
+            <img class="img_1" src="img/w-img/icons8-figma-48.png" alt="">
+            <img src="img/w-img/logos_sketch.png">
+            <img src="img/w-img/xd.png">
+        </div>
+
+        <div class="icons_top1 icons_top">
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-linkedin-square' ></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-behance' ></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-twitter' ></i>
+            </a>
+            <a href="#" target="_blank" rel="noopener noreferrer">
+                <i class='bx bxl-dribbble' ></i>
+            </a>
+        </div>
+
         <h3 class="s_t">Designed by me, developed by <a href="#" target="_blank" class="lk" rel="noopener noreferrer">dluckydev</a><i class='bx bxs-heart' ></i></h3>
     </div>
 </section>
 
 <!-- ============ END FOTTER SECTION ============= -->
-
+<script src="anime-master/anime.min.js"></script>
 <!-- <script src="./splide/dist/js/splide.min.js"></script>
 ==================== JS Slider (Courosel) SECTION ======================== -->
 
@@ -33,41 +59,20 @@
 <script src="https://kit.fontawesome.com/30fc0982d8.js"></script>
 
 
+<!-- ========= PROJECT SECTIONS -->
+<script src="./splide/dist/js/splide.min.js"></script>
 
 <script>
 
-// let elms = document.getElementsByClassName( 'splide' )[0];
+    let elms = document.querySelector('.splide');
+    let slide = new Splide(elms, {
+        type: 'loop',
+        autoplay: true,
+        // autoWidth: true,
+    });
 
-//     slide = new Splide(elms, {
-//         classes: {
-//             arrows: 'splide__arrows your-class-arrows',
-//             arrow : 'splide__arrow your-class-arrow',
-//             prev  : 'splide__arrow--prev your-class-prev',
-//             next  : 'splide__arrow--next your-class-next',
-//         },
-    
-//         type: 'loop',
-//         trimSpace: false,
-//         perPage : 1,
-//         width: '100%',
-
-//         autoplay: true,
-//         autoWidth: true,
-//         focus: 'center',
-//         fixWidth: '0rem',
-//         padding: {
-//             right: '5rem',
-//             left : '5rem',
-//         },
-//         perMove: 1,
-       
-//     });
-//     slide.mount();
-
-
-
+    slide.mount();
 </script>
-
 
 </body>
 

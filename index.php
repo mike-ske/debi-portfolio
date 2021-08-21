@@ -1,36 +1,10 @@
 
 
-<?php 
- require 'header.php'
- ?>
+<?php require 'header.php'?>
 <?php  require 'nav.php'?>
-
-
-
-<?php
-
-$request = isset($_GET['item']);
-
-if (isset($_GET['item']) && $_GET['item'] === 'contact') 
-{
-     require './pages/contact.php';
-}
-elseif (isset($_GET['item']) && $_GET['item'] === 'project') {
-
-     require './pages/projects.php';
-}
-else
-{
-?>
 
 <!-- ============ HEROE SECTION ============= -->
 <section class="heroe bg_main">
-
-    <div class="circli_1"></div>
-    <div class="circli_2"></div>
-    <div class="circli_3"></div>
-    <div class="circli_4"></div>
-
     <div class="fg_center heroe_1">
         <div class="left_sec">
             <h1 class="h1">
@@ -68,12 +42,14 @@ else
         <div class="right_sec">
             <div class="d_img"></div>
         </div>
+
+        
     </div>
 </section>
+
+<div class="right_sec foot_img">
+    <img src="img/thumbs-up-hand-gesture 1.png" alt="">
+</div>
 <!-- ============ END HEROE SECTION ============= -->
-
-
-
-<?php } ?>
 
 <?php  require 'footer.php'?>
