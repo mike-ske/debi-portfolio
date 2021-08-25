@@ -142,7 +142,8 @@
     }
 
     .splide .splide__arrows {
-        right: 0px;
+        right: -1em;
+        transform: scale(0.7);
     }
 
     .purple_col {
