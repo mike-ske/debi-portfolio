@@ -5,16 +5,7 @@
     <div class="circli_1"></div>
     <div class="circli_2"></div>
     <div class="circli_3"></div>
-    <div class="circli_4"></div>
-    <div class="circli_5"></div>
-    <div class="circli_6"></div>
-    <!-- <div class="circli_7"></div>
-    <div class="circli_8"></div>
-    <div class="circli_9"></div>
-    <div class="circli_10"></div>
-    <div class="circli_11"></div>
-    <div class="circli_12"></div> -->
-
+  
     <div class="fg_center">
 
         <div class="caption1 caption">
@@ -42,7 +33,9 @@
         <h3 class="s_t">Designed by me, developed by <a href="#" target="_blank" class="lk" rel="noopener noreferrer">dluckydev</a><i class='bx bxs-heart' ></i></h3>
     </div>
 </section>
-
+<div class="ripple" id="ripple">
+    <img src="img/ripple.png" alt="">
+</div>
 <!-- ============ END FOTTER SECTION ============= -->
 <script src="anime-master/anime.min.js"></script>
 <!-- <script src="./splide/dist/js/splide.min.js"></script>

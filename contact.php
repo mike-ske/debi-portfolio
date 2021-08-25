@@ -2,8 +2,13 @@
 <?php  require 'nav.php'?>
 
 <!-- ========= CONTACT ME SECTIONS -->
+
+    
 <section class="heroe bg_main">
+    
+ 
     <div class="fg_center heroe_1">
+
         <div class="left_sec">
             <div class="project_head">
                 <h1 class="head_1 h_1">Let’s work together</h1>
@@ -39,20 +44,15 @@
     <div class="circli_1"></div>
     <div class="circli_2"></div>
     <div class="circli_3"></div>
-    <div class="circli_4"></div>
-    <div class="circli_5"></div>
-    <div class="circli_6"></div>
-    <div class="circli_7"></div>
-    <!-- <div class="circli_8"></div>
-    <div class="circli_9"></div>
-    <div class="circli_10"></div>
-    <div class="circli_11"></div>
-    <div class="circli_12"></div> -->
 
     <div class="fg_center">
         <h3 class="s_t">Designed by me, developed by <a href="#" target="_blank" class="lk" rel="noopener noreferrer">dluckydev</a><i class='bx bxs-heart' ></i></h3>
     </div>
 </section> 
+
+<div class="ripple" id="ripple">
+    <img src="img/ripple.png" alt="">
+</div>
 
 <div class="right_sec foot_img">
     <img src="img/thumbs-up-hand-gesture 1.png" alt="">

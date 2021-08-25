@@ -154,6 +154,16 @@
         padding: 14px 53px;
     }
 
+    #ripple img{
+        height: 14em;
+    }
+
+    .circli_2,
+    .circli_3,
+    .circli_4
+    {
+        position: absolute;
+    }
 }
 
 @media only screen and (max-width: 1024px) and (min-width:768px){

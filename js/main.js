@@ -1,4 +1,4 @@
-// import Typed from 'typed.js';
+
 
 
 
@@ -6,22 +6,60 @@
 Code for active menu
 */
 
-// let nav__link = document.getElementsByClassName("list");
-// // let active = document.getElementsByClassName("active")[0];
+let nav__link = document.querySelectorAll(".link_1");
+// let active = document.getElementsByClassName("active")[0];
 // let main_menu = document.getElementsByClassName("nav__list")[0];
+// Add active class to the current button (highlight it)
+var header = document.querySelector(".form");
+var btns = header.getElementsByClassName("link_1");
 
-// for (let i = 0; i < nav__link.length; i++) {
+
+
+// console.log(header);
+// console.log(btns);
+
+// for (var i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", function() {
+//   var current = document.getElementsByClassName("active");
+//   current[0].className = current[0].className.replace(" active", "");
+//   this.className += " active";
+//   });
+// }
+
+
+window.activeNav = function(event) 
+{
+    let el = document.querySelectorAll('.links ul li')
+   
+    // if (el) {
+    //     el.classList.remove('active')
+    // }
+  
+    for (let i = 0; i < el.length; i++) {
+        console.log(el[i]);
+         e1 = el[i]
+        el[i].classList.remove('active');
+        
+    }
+    
+   el.classList.add('active')
+}
+// for (let i = 0; i < nav__link.length; i++) 
+// {
+
 //     const list__item = nav__link[i];
 
-//     list__item.addEventListener("click", function () {
-//         document.getElementsByClassName("active")[0].classList.remove("active");
-//         nav__link[i].classList.add("active");
+//     nav__link[i].addEventListener("click", function () {
+//         var current = document.querySelector(".active");
+//         current[0].className.replace("active", "");
+//         // this.classList.add("active");
+//         this.className += " active";
 //     })
     
 //     // ==== CODE TO HIDE THE MENU WHEN TABS ARE CLICKED
-//     list__item.addEventListener("click", function () {
-//         main_menu.classList.remove("show");
-//     })
+//     // list__item.addEventListener("click", function () {
+//     //     main_menu.classList.remove("show");
+//     // })
 // }
 
 /* 
@@ -52,15 +90,15 @@ nav__icon.addEventListener('click', function () {
 
 // ========= set scroll nav =====
 
-window.addEventListener("scroll", function () {
-    document.getElementById("nav").classList.add("sticky");
-    const currentScroll = window.pageYOffset;
-    if (currentScroll <= 0) {
-    document.getElementById("nav").classList.remove("sticky");
+// window.addEventListener("scroll", function () {
+//     document.getElementById("nav").classList.add("sticky");
+//     const currentScroll = window.pageYOffset;
+//     if (currentScroll <= 0) {
+//     document.getElementById("nav").classList.remove("sticky");
      
-    }
-    return;
-});
+//     }
+//     return;
+// });
 
 
 //  ===== code for project type menu
@@ -95,10 +133,3 @@ function sendRequest(e)
    
 }
 
-anime({
-    targets: '.circli_1',
-    translateX: 250,
-    rotate: '1turn',
-    backgroundColor: '#FFF',
-    duration: 800
-  });

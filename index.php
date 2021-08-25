@@ -4,6 +4,7 @@
 <?php  require 'nav.php'?>
 
 <!-- ============ HEROE SECTION ============= -->
+
 <section class="heroe bg_main">
     <div class="fg_center heroe_1">
         <div class="left_sec">
@@ -14,7 +15,6 @@
             </h1>
 
             <span class="line"></span>
-
 
             <div class="caption">
                 <h3 class="text">Software used:</h3>

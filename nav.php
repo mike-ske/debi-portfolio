@@ -1,5 +1,6 @@
 <!-- ============ NAV SECTION ============= -->
 
+
 <section class="bg_main nav">
     <div class="fg_center nav_bar">
         <div class="logo">
@@ -8,18 +9,18 @@
 
         <div class="links">
 
-            <div class="form">
-                <div class="link_1">
+            <ul class="form" id="form" onclick="window.activeNav(event)">
+                <li class="link_1 active">
                     <span>&downarrow;</span> 
                     <a for="project" href="projects" class="p1">My Projects</a>
-                </div>
+                </li>
              
-                <div class="link_1">
+                <li class="link_1">
                     <span>&downarrow;</span> 
-                    <a for="contact" href="contact" class="c1">Contact Me</a>
+                    <a for="contact" href="contact" class="p1">Contact Me</a>
                    
-                </div>
-            </div>
+                </li>
+            </ul>
 
             <div class="icons_top sub_ico" style="display: none;">
                 <a href="#" target="_blank" rel="noopener noreferrer">
