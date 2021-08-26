@@ -9,9 +9,9 @@
     <div class="fg_center heroe_1">
         <div class="left_sec">
             <h1 class="h1">
-                I am a <span class="purple" style="font-weight:700;">UI/UX (Product) Designer</span> based in Lagos, Nigeria. 
-                I am passionate about <span class="yellow" style="font-weight:700;">designing</span>  and love 
-                <span class="yellow" style="font-weight:700;">making complex issues look simple.</span> 
+                I am a <span class="yellow" style="font-weight:700;">UI/UX (Product) Designer</span> based in Lagos, Nigeria. 
+                I am passionate about <span class="purple" style="font-weight:700;">designing</span>  and love making
+                <span class="yellow" style="font-weight:700;"> complex issues look simple.</span> 
             </h1>
 
             <span class="line"></span>

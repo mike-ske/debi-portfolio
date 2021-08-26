@@ -27,23 +27,30 @@ var btns = header.getElementsByClassName("link_1");
 // }
 
 
-window.activeNav = function(event) 
-{
-    let el = document.querySelectorAll('.links ul li')
-   
-    // if (el) {
-    //     el.classList.remove('active')
-    // }
-  
-    for (let i = 0; i < el.length; i++) {
-        console.log(el[i]);
-         e1 = el[i]
-        el[i].classList.remove('active');
-        
+
+// ===================== ADD ACTIVE CLASS TO LINKS ================
+let path = window.location.pathname.split('/').pop()
+    console.log(path);
+
+    var target = document.querySelectorAll('.links ul li a[href="'+path+'"]')
+    let arrow1 = document.getElementById('arr1')
+    let arrow2 = document.getElementById('arr2')
+    let logo = document.getElementById('logo')
+
+    if (path == 'contact') 
+    {
+        arrow2.classList.add('active');
     }
-    
-   el.classList.add('active')
-}
+    else if (path == 'projects') 
+    {
+        arrow1.classList.add('active');
+    }
+    else if (path == "") 
+    {
+        logo.style.color = "#E0245E";
+    }
+
+
 // for (let i = 0; i < nav__link.length; i++) 
 // {
 

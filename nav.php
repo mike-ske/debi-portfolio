@@ -4,20 +4,20 @@
 <section class="bg_main nav">
     <div class="fg_center nav_bar">
         <div class="logo">
-            <a href="./" class="logo">ADEYEMI DEBORAH</a>
+            <a href="./" class="logo"  id="logo">ADEYEMI DEBORAH</a>
         </div>
 
         <div class="links">
 
-            <ul class="form" id="form" onclick="window.activeNav(event)">
-                <li class="link_1 active">
-                    <span>&downarrow;</span> 
+            <ul class="form" id="form">
+                <li class="link_1">
+                    <span id="arr1">&downarrow;</span> 
                     <a for="project" href="projects" class="p1">My Projects</a>
                 </li>
              
                 <li class="link_1">
-                    <span>&downarrow;</span> 
-                    <a for="contact" href="contact" class="p1">Contact Me</a>
+                    <span id="arr2">&downarrow;</span> 
+                    <a for="contact" href="contact" class="p2">Contact Me</a>
                    
                 </li>
             </ul>

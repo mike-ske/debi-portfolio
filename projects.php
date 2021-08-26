@@ -29,7 +29,7 @@
                                 </div>
                                 
                                 <div class="set_img_1">
-                                    <img src="img/Project 1.png" alt="Doctor on suit">
+                                    <img src="img/pr_1.png" alt="Doctor on suit">
                                 </div>
                             </div>
 
@@ -40,19 +40,19 @@
                                         <div class="typ_1 t1">WEB</div>
                                         <div class="typ_1 t2">MOBILE</div>
                                     </div>
-                                    Glover Website and Mobile App
+                                    Glover 
                                 </h3>
                                 <p class="p_hd">
-                                    Glover is a shop for all gift cards that helps users to trade globally.
-                                    With Glover, users experience a faster, easier, and more reliable way
-                                    to buy and sell their Gift cards. It can be used to shop on all
-                                    your various online stores. Also, it has different products like
-                                    bill payments, airtime to cash, personalized services.
+                                    Glover is a shop for all gift cards that helps users to trade globally. 
+                                    With Glover, users experience a faster, easier, and more reliable way 
+                                    to buy and sell their Gift cards. It can be used to shop on all your 
+                                    various online stores. Also, it has different products like bill payments, 
+                                    airtime to cash, personalized services.
                                     <br><br>
                                     The designs were done by a team that I was part of.
                                 </p>
                                 <div class="buttons">
-                                    <a href="#" class="hd_btn purple_col">View Live Project</a>
+                                    <a href="https://gloverapp.co/" class="hd_btn purple_col" target="_blank">View Live Project</a>
                                     <a href="#" class="hd_btn">View Case Study</a>
 
                                 </div>
@@ -74,7 +74,7 @@
                             </div>
 
                                 <div class="set_img_1">
-                                    <img src="img/Project 2.png" alt="Doctor on suit">
+                                    <img src="img/pr_4.png" alt="Doctor on suit">
                                 </div>
                             </div>
 
@@ -86,19 +86,18 @@
                                 </div>
                                 <h3 class="h1_hd">Alerzo</h3>
                                 <p class="p_hd">
-                                    A technology and services platform that transforms how 
-                                    informal retail stores operate. Alerzo is the all-in-one 
-                                    technology partner for informal retail store operators. 
-                                    With Alerzo, informal retailers can recieve and make cashless 
-                                    payments, track store profitability better and facilitate a portfolio 
-                                    of digital services including airtime purchase, bill payments as 
-                                    well as processing peer-to-peer transfers.
+                                    A technology and services platform that transforms how informal 
+                                    retail stores operate. Alerzo is the all-in-one technology partner 
+                                    for informal retail store operators. With Alerzo, informal retailers 
+                                    can recieve and make cashless payments, track store profitability 
+                                    better and facilitate a portfolio of digital services including airtime 
+                                    purchase, bill payments as well as processing peer-to-peer transfers.
 
                                     <br><br>
                                     The designs were done by a team that I was part of.
                                 </p>
                                 <div class="buttons">
-                                    <a href="#" class="hd_btn purple_col">View Live Project</a>
+                                    <a href="https://www.alerzo.com" class="hd_btn purple_col" target="_blank">View Live Project</a>
                                     <a href="#" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
@@ -119,7 +118,7 @@
                             </div>
 
                                 <div class="set_img_1">
-                                    <img src="./img/Project 1.png" alt="Doctor on suit">
+                                    <img src="./img/pr_2.png" alt="Doctor on suit">
                                 </div>
                             </div>
 
@@ -127,15 +126,14 @@
                                 <div class="nums">03</div>
                                 <div class="display_btn">
                                     <div class="typ_1 t1">WEB</div>
-                                    <div class="typ_1 t2">MOBILE</div>
                                 </div>
-                                <h1 class="h1_hd">Rent a home</h1>
+                                <h1 class="h1_hd">Dana Air</h1>
                                 <p class="p_hd">
-                                    Glover is a shop for all gift cards that helps users to trade globally.
-                                    With Glover, users experience a faster, easier, and more reliable way
-                                    to buy and sell their Gift cards. It can be used to shop on all
-                                    your various online stores. Also, it has different products like
-                                    bill payments, airtime to cash, personalized services.
+                                    Dana Air is focused on bringing to Nigerians, an aviation 
+                                    service that combines the best elements of legacy carriers – world-class 
+                                    safety and quality on-board services coupled with the latest technology 
+                                    (online services) and operational efficiency of new-age carriers.
+                                    
                                     <br><br>
                                     The designs were done by a team that I was part of.
                                 </p>
@@ -160,7 +158,7 @@
                             </div>
                             
                                 <div class="set_img_1">
-                                    <img src="./img/Project 1.png" alt="Doctor on suit">
+                                    <img src="./img/pr_3.png" alt="Doctor on suit">
                                 </div>
                             </div>
 
@@ -170,15 +168,57 @@
                                     <div class="typ_1 t1">WEB</div>
                                     <div class="typ_1 t2">MOBILE</div>
                                 </div>
-                                <h1 class="h1_hd">Funconnect Website and mobile app</h1>
+                                <h1 class="h1_hd">Funconnect</h1>
                                 <p class="p_hd">
-                                    Glover is a shop for all gift cards that helps users to trade globally.
-                                    With Glover, users experience a faster, easier, and more reliable way
-                                    to buy and sell their Gift cards. It can be used to shop on all
-                                    your various online stores. Also, it has different products like
-                                    bill payments, airtime to cash, personalized services.
+                                    Funconnect get you setup for relaxation, 
+                                    connect you to best recreational centre around 
+                                    you with full details of what you need to enjoy
+                                    your day with many other goodies.
+
                                     <br><br>
-                                    The designs were done by a team that I was part of.
+                                    I was the design team lead for this project
+                                </p>
+                                <div class="buttons">
+                                    <a href="https://funconnect.ng/" class="hd_btn purple_col" target="_blank">View Live Project</a>
+                                    <a href="#" class="hd_btn">View Case Study</a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+                    
+                    <!--===== five slide ======== -->
+                    <li class="splide__slide">
+                        <div class="slide_container">
+
+                            <div class="img_head">
+
+                            <div class="project_head">
+                                <h1 class="head_1">Recent Projects</h1>
+                                <div class="line_1"></div>
+                            </div>
+
+                                <div class="set_img_1">
+                                    <img src="./img/pr_3.png" alt="Doctor on suit">
+                                </div>
+                            </div>
+
+                            <div class="text_head">
+                                <div class="nums">05</div>
+                                <div class="display_btn">
+                                    <div class="typ_1 t1">WEB</div>
+                                    <div class="typ_1 t2">MOBILE</div>
+                                </div>
+                                <h1 class="h1_hd">Rent a home</h1>
+                                <p class="p_hd">
+                                    This app is determined to helping users provide an 
+                                    affordable platform to search for houses to rent without 
+                                    stress. The mission is to provide a unique platform (application) 
+                                    which will enable people search for standard houses for rent from 
+                                    different part of the country easily, saving them time and money.
+
+                                    <br><br>
+                                    I was the only designer for this project
                                 </p>
                                 <div class="buttons">
                                     <a href="#" class="hd_btn purple_col">View Live Project</a>
@@ -188,6 +228,7 @@
 
                         </div>
                     </li>
+
 
                 </ul>
             </div>

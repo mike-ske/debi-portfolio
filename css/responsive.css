@@ -165,9 +165,211 @@
     {
         position: absolute;
     }
+    .project_head{
+        margin: 0px;
+    }
 }
 
-@media only screen and (max-width: 1024px) and (min-width:768px){
+/* ===================== MAC BOOK RESPONSIVE DEVICE ============================= */
+
+@media only screen and (max-width: 1652px) and (min-width:1444px)
+{
+    .d_img {
+        width: 700px;
+    }
+    .set_img_1>img {
+        height: 555px !important;
+    }
+}
+@media only screen and (max-width: 1400px) and (min-width:1444px)
+{
+    .d_img {
+        width: 550px;
+    }
+    .set_img_1>img {
+        height: 500px !important;
+    }
+    .slide_container {
+        height: 70em;
+    }
+    h1 {
+        font-size: 40px !important;
+    }
+    .splide .splide__pagination__page {
+        width: 16em;
+    }
+
+}
+@media only screen and (max-width: 1200px) and (min-width:1444px)
+{
+    .d_img {
+        width: 500px;
+    }
+    .set_img_1>img {
+        height: 400px !important;
+    }
+    .splide__track{
+        height: 55em;
+    }
+    .slide_container {
+        height: 55em !important;
+    }
+    .p_hd {
+        font-size: 22px !important;
+    }
+    .head_1 {
+        font-size: 35px !important;
+    }
+}
+@media only screen and (max-width: 2080px) and (min-width:1650px)
+{
+    .d_img {
+        width: 790px;
+    }
+    .set_img_1>img {
+        height: 665px !important;
+    }
+    
+
+    
+}
+@media only screen and (max-width: 2080px) and (min-width:1444px)
+{
+    .fg_center {
+        width: 90%;
+    }
+
+    .d_img {
+         /* width: 790px; */
+        height: 880px; 
+        background-size: cover;
+        background-position: center;
+    }
+
+    h1 {
+        font-size: 55px;
+        line-height: 90px;
+    }
+    .caption>h3 {
+        font-size: 35px;
+    }
+    .line {
+        width: 260px;
+        margin: 90px 0px;
+    }
+    .caption img {
+        transform: scale(1.5);
+    }
+
+    .nav_bar {
+        height: 100% !important;
+    }
+    .caption {
+        column-gap: 90px;
+    }
+
+    .s_t {
+        font-size: 20px;
+    }
+
+    .logo a {
+        font-size: 30px;
+    }
+
+    .form .link_1 a {
+        font-size: 26px;
+    }
+
+    .link_1 span {
+        top: -40px;
+        font-size: 37px;
+        left: 75px;
+    }
+
+    .nav {
+        height: 120px;
+    }
+    .line_1 {
+        width: 250px;
+    }
+
+    .head_1 {
+        font-size: 43px;
+        line-height: 50px;
+    }
+    .p_hd {
+        font-size: 23px;
+        line-height: 50px;
+    }
+
+    .text_1>p {
+        font-size: 28px;
+    }
+    .heroe_1 {
+        column-gap: 78px;
+    }
+
+    .set_img_1 {
+        width: auto;
+        height: auto;
+    }
+    .set_img_1>img{
+        height: 700px;
+    }
+    .splide .splide__pagination {
+        bottom: -50px;
+    }
+
+    .project_head {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    .splide .splide__arrows {
+        bottom: -9em;
+    }    
+    .h1_hd
+    {
+        font-size: 40px;
+    }
+    .t1 {
+        margin-right: 30px;
+    }
+
+    .typ_1 {
+        padding: 25px;
+        font-size: 25px;
+    }
+
+    .display_btn {
+        margin-bottom: 30px;
+    }
+    .hd_btn {
+        padding: 20px 60px;
+    } 
+    .side_text {
+        position: relative;
+        bottom: -5em;
+    }
+
+    .splide .splide__arrows .splide__arrow--prev, 
+    .splide .splide__arrows .splide__arrow--next 
+    {
+        width: 4em;
+        height: 4em;
+    }
+    .splide .splide__arrows img {
+        transform: scale(0.06);
+    }
+
+
+}
+
+
+
+/* ======================= DESKTOP SCREEN DEVICE ======================================= */
+
+@media only screen and (max-width: 1024px) and (min-width:768px)
+{
     .nav {
         width: auto;
     }
@@ -202,18 +404,22 @@
         width: 100%;
     }
 
-    .splide__track {
-        height: 26em;
+    .nav_bar {
+        height: 100%;
     }
+    /* .splide__track {
+        height: 55em !important;
+    } */
     .splide .splide__pagination__page {
         width: 15em;
     }
 
     .slide_container{
-        height: 27em;
+        height: 27em !important;
     }
-
-
+  .hd_btn {
+        padding: 13px 20px;
+    }
 
 }
 @media only screen and (max-width: 1227px) and (min-width:986px){
@@ -226,7 +432,7 @@
     }
 
     .slide_container {
-        height: 480px;
+        height: 40em;
     }
 
     .nums {
@@ -237,6 +443,9 @@
         width: 100%;
         height: auto;
     }
+    .nav_bar {
+        height: 100%;
+    }
 
     .bg_main {
         max-width: 100%;
@@ -244,7 +453,7 @@
     }
 
     .splide .splide__pagination__page {
-        width: 16em;
+        width: 14em;
     }
 
 }
@@ -281,16 +490,18 @@
         height: 280px;
     }
     .slide_container {
-        height: 400px;
+        height: 50em;
     }
     .nums {
         top: 0em;
     }
     .splide .splide__pagination__page {
-        width: 11em;
+        width: 9em;
     }
 
 }
+
+/* ============================= MOBILE DEVICE SCREEN RESOLUTIONS ================================ */
 
 @media only screen and (max-width: 550px){
 

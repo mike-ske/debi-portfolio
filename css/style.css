@@ -84,13 +84,17 @@ ul {
     color: #E0245E;
 }
 
-.form .active a{
+/* .form .active a{
     color: #E0245E !important;
-}
+} */
 
-.form .active span{
+.active {
     visibility: unset !important;
+    color: #E0245E
 }
+/* .form .active span{
+    visibility: unset !important;
+} */
 
 .links {
     width: auto;
@@ -421,6 +425,8 @@ h1 {
     display: flex;
     column-gap: 20px;
     align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
 }
 
 .line_1 {
@@ -815,7 +821,7 @@ h1 {
 }
 .splide  .splide__pagination__page
 {
-    width: 21em;
+    width: 16em;
     height: 4px;
     border-radius: 8px;
     margin: 0px 3px;

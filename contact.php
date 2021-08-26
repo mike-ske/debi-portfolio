@@ -15,12 +15,11 @@
                 <div class="line_1"></div>
             </div>
             <p class="p_hd">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Nunc tincidunt hendrerit pellentesque ornare tincidunt ipsum. 
-                Adipiscing viverra morbi amet habitant nunc tristique. Egestas semper 
-                congue semper velit. 
-                Integer purus orci ultricies turpis. Arcu, mauris vitae fermentum 
-                mauris dictum. 
+                I have a knack for learning, problem solving and work well independently 
+                while being great with teams. I am organized, resourceful, a good listener 
+                and I pay good attention to every little detail. I am also very useful and multi-faceted 
+                as I have been able to work in many fields as a 
+                UI/UX designer including fin tech, health, academics, agriculture and many more.
             </p>
             
             <div class="text_1">
