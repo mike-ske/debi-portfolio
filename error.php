@@ -16,6 +16,11 @@
                     <!-- <i class="icofont-long-arrow-left"></i> -->
                 </a>
             </div>
+
+            <div class="dev_img_1">
+                <img src="./img/dev_1.png" alt="Doctor on suit">
+            </div>
+
             <h1 class="head_1 e_1">
                 Oops! Link not available at the moment, please check back later and many more.
             </h1>

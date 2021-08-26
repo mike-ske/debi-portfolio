@@ -136,6 +136,13 @@ input[type=radio] {
     font-weight: 600;
 }
 
+.dev_img_1 {
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .arrow{
     background: #ffffff;
