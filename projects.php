@@ -53,7 +53,7 @@
                                 </p>
                                 <div class="buttons">
                                     <a href="https://gloverapp.co/" class="hd_btn purple_col" target="_blank">View Live Project</a>
-                                    <a href="#" class="hd_btn">View Case Study</a>
+                                    <a href="./error" class="hd_btn">View Case Study</a>
 
                                 </div>
 
@@ -61,7 +61,7 @@
 
                         </div>
                     </li>
-
+             
                     <!--===== second slide ======== -->
                     <li class="splide__slide">
 
@@ -98,7 +98,7 @@
                                 </p>
                                 <div class="buttons">
                                     <a href="https://www.alerzo.com" class="hd_btn purple_col" target="_blank">View Live Project</a>
-                                    <a href="#" class="hd_btn">View Case Study</a>
+                                    <a href="./error" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -138,8 +138,8 @@
                                     The designs were done by a team that I was part of.
                                 </p>
                                 <div class="buttons">
-                                    <a href="#" class="hd_btn purple_col">View Live Project</a>
-                                    <a href="#" class="hd_btn">View Case Study</a>
+                                    <a href="./error" class="hd_btn purple_col">View Live Project</a>
+                                    <a href="./error" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -180,7 +180,7 @@
                                 </p>
                                 <div class="buttons">
                                     <a href="https://funconnect.ng/" class="hd_btn purple_col" target="_blank">View Live Project</a>
-                                    <a href="#" class="hd_btn">View Case Study</a>
+                                    <a href="./error" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -199,7 +199,7 @@
                             </div>
 
                                 <div class="set_img_1">
-                                    <img src="./img/pr_3.png" alt="Doctor on suit">
+                                    <img src="./img/pr_5.png" alt="Doctor on suit">
                                 </div>
                             </div>
 
@@ -221,8 +221,8 @@
                                     I was the only designer for this project
                                 </p>
                                 <div class="buttons">
-                                    <a href="#" class="hd_btn purple_col">View Live Project</a>
-                                    <a href="#" class="hd_btn">View Case Study</a>
+                                    <a href="./error" class="hd_btn purple_col">View Live Project</a>
+                                    <a href="./error" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 

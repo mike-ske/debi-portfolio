@@ -129,6 +129,30 @@ input[type=radio] {
     display: none;
 }
 
+.e_1 {
+    width: 50%;
+    margin: 50px auto;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+.arrow{
+    background: #ffffff;
+    border-radius: 15px;
+    height: 20px;
+    width: 20px;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.arrow i{
+    font-size: 40px;
+    color: #0F1E31;
+}
 .link_1 span {
     position: relative;
     top: -27px;

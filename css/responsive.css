@@ -16,6 +16,13 @@
         padding: 0 20px;
     }
 
+    .arrow {
+        padding: 13px;
+    }
+    .arrow i {
+        font-size: 28px;
+    }
+
     
     .logo a {
         font-size: 18px;
