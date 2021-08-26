@@ -221,7 +221,7 @@
                                     I was the only designer for this project
                                 </p>
                                 <div class="buttons">
-                                    <a href="./error" class="hd_btn purple_col">View Live Project</a>
+                                    <a href="https://www.flydanaair.com/" class="hd_btn purple_col">View Live Project</a>
                                     <a href="./error" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
