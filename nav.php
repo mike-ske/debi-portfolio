@@ -23,16 +23,16 @@
             </ul>
 
             <div class="icons_top sub_ico" style="display: none;">
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.linkedin.com/in/deborah-adeyemi-9b8578172/" target="_blank" rel="noopener noreferrer">
                     <i class='bx bxl-linkedin-square' ></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.behance.net/adeyemideborah02" target="_blank" rel="noopener noreferrer">
                     <i class='bx bxl-behance' ></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://mobile.twitter.com/debbiesuco" target="_blank" rel="noopener noreferrer">
                     <i class='bx bxl-twitter' ></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener noreferrer">
+                <a href="https://dribbble.com/debbiesuco" target="_blank" rel="noopener noreferrer">
                     <i class='bx bxl-dribbble' ></i>
                 </a>
             </div>

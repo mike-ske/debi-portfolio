@@ -45,10 +45,7 @@ let path = window.location.pathname.split('/').pop()
     {
         arrow1.classList.add('active');
     }
-    else if (path == "") 
-    {
-        logo.style.color = "#E0245E";
-    }
+    
 
 
 // for (let i = 0; i < nav__link.length; i++) 

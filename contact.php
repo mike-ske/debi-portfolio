@@ -24,7 +24,7 @@
             
             <div class="text_1">
                 <p>
-                Tell me more about the project by sending a message to <span class="yellow1">deborahadeyemi96@gmail.com</span> 
+                Tell me more about the project by sending a message to <a href="mailto:deborahadeyemi96@gmail.com" class="yellow1">deborahadeyemi96@gmail.com</a> 
                 </p>
             </div>
 
@@ -45,7 +45,7 @@
     <div class="circli_3"></div>
 
     <div class="fg_center">
-        <h3 class="s_t">Designed by me, developed by <a href="#" target="_blank" class="lk" rel="noopener noreferrer">dluckydev</a><i class='bx bxs-heart' ></i></h3>
+        <h3 class="s_t">Designed by me, developed by <a href="http://www.thinksoft.site/" target="_blank" class="lk" rel="noopener noreferrer">monaTech</a><i class='bx bxs-heart' ></i></h3>
     </div>
 </section> 
 

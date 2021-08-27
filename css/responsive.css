@@ -1,14 +1,23 @@
-.icons_top,
+.icons_top1,
 .caption1
 {
     display: none;
 }
 
+.side_text
+{
+    z-index: -1;
+}
 @media only screen and (max-width: 768px){
 
     .fg_center {
         max-width: 100%;
         height: auto;
+    }
+
+    .icons_top
+    {
+        display: none;
     }
 
     .bg_main {
@@ -19,6 +28,9 @@
         width: 50%;
     }
 
+    .caption .img_1{
+        transform: scale(.7);
+    }
     .e_1 {
         width: 80%;
     }
@@ -51,7 +63,6 @@
     }
 
     .left_sec h1{
-        font-weight: 400;
         font-size: 24px;
         line-height: 40px;
     }
@@ -70,20 +81,21 @@
     .d_img {
         margin: auto;
         background-position: center;
-        background-size: auto;
-        height: 514px;
-        margin-bottom: 50px
+        background-size: cover;
+        margin-bottom: 50px;
+        width: 380px;
+        height: 417px;
     }
     
 
     .icons_top1 a>i {
-        font-size: 26px;
+        font-size: 34px;
     }
     .icons_top1 {
         display: flex;
         position: absolute;
-        padding: 22px 0px;
-        column-gap: 20px;
+        padding: 30px 0px;
+        column-gap: 35px;
     }
 
 
@@ -189,9 +201,9 @@
 
 @media only screen and (max-width: 1652px) and (min-width:1444px)
 {
-    .d_img {
-        width: 700px;
-    }
+    /* .d_img {
+        width: 00px;
+    } */
     .set_img_1>img {
         height: 555px !important;
     }
@@ -235,6 +247,21 @@
     .head_1 {
         font-size: 35px !important;
     }
+    
+}
+@media only screen and (max-width: 1815px) and (min-width:1440px)
+{
+    .splide .splide__pagination__page 
+    {
+        width: 17em;
+    }
+
+}
+@media only screen and (max-width: 2080px) and (min-width:1815px)
+{
+    .splide .splide__pagination__page {
+        width: 25em;
+    }
 }
 @media only screen and (max-width: 2080px) and (min-width:1650px)
 {
@@ -244,25 +271,28 @@
     .set_img_1>img {
         height: 665px !important;
     }
-    
-
+   
     
 }
+
 @media only screen and (max-width: 2080px) and (min-width:1444px)
 {
     .fg_center {
         width: 90%;
     }
 
+    .icons_top a>i {
+        font-size: 35px;
+    }
     .d_img {
-         /* width: 790px; */
-        height: 880px; 
+        width: 500px;
+        height: 580px;
         background-size: cover;
         background-position: center;
     }
 
     h1 {
-        font-size: 55px;
+        font-size: 40px;
         line-height: 90px;
     }
     .caption>h3 {
@@ -270,10 +300,10 @@
     }
     .line {
         width: 260px;
-        margin: 90px 0px;
+        margin: 50px 0px;
     }
     .caption img {
-        transform: scale(1.5);
+        transform: scale(1.2);
     }
 
     .nav_bar {
@@ -285,6 +315,11 @@
 
     .s_t {
         font-size: 20px;
+        padding-top: 50px;
+    }
+
+    .icons_top {
+        margin-top: 70px;
     }
 
     .logo a {
@@ -309,7 +344,7 @@
     }
 
     .head_1 {
-        font-size: 43px;
+        font-size: 40px;
         line-height: 50px;
     }
     .p_hd {
@@ -334,10 +369,17 @@
     .splide .splide__pagination {
         bottom: -50px;
     }
-
+    /* .splide .splide__pagination__page {
+        width: 24em;
+    } */
+  
     .project_head {
         margin-bottom: 40px;
         margin-top: 40px;
+    }
+
+    .dev_img_1 img {
+        height: auto;
     }
     .splide .splide__arrows {
         bottom: -9em;
@@ -572,7 +614,7 @@
 @media only screen and (max-width: 350px){
 
     .splide .splide__pagination__page {
-        width: 4em !important;
+        width: 3em !important;
     }
    
     .p_hd {

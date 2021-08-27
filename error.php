@@ -11,9 +11,8 @@
 
         <div class="left_sec">
             <div class="project_head">
-                <a href="./" class="head_1  arrow">
+                <a href="./projects" class="head_1  arrow">
                     <i class="icofont-arrow-left"></i>
-                    <!-- <i class="icofont-long-arrow-left"></i> -->
                 </a>
             </div>
 
@@ -22,18 +21,18 @@
             </div>
 
             <h1 class="head_1 e_1">
-                Oops! Link not available at the moment, please check back later and many more.
+                Oops! Link not available at the moment, please check back later.
             </h1>
             
         </div>
-
+                
     </div>
 </section>
 <!-- ============ FOTTER SECTION ============= -->
 
 <section class="side_text bg_main b_2">
     <div class="fg_center">
-        <h3 class="s_t">Designed by me, developed by <a href="#" target="_blank" class="lk" rel="noopener noreferrer">dluckydev</a><i class='bx bxs-heart' ></i></h3>
+    <h3 class="s_t">Designed by me, developed by <a href="http://www.thinksoft.site/"  target="_blank" class="lk" rel="noopener noreferrer">monaTech</a><i class='bx bxs-heart'></i></h3>
     </div>
 </section> 
 <div class="ripple" id="ripple">

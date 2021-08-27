@@ -131,10 +131,11 @@ input[type=radio] {
 
 .e_1 {
     width: 50%;
-    margin: 50px auto;
+    margin: 10px auto;
     text-align: center;
     font-weight: 600;
 }
+
 
 .dev_img_1 {
     width: auto;
@@ -142,6 +143,10 @@ input[type=radio] {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.dev_img_1 img {
+    height: 195px;
 }
 
 .arrow{
@@ -222,17 +227,6 @@ input[type=radio] {
         align-items: initial;
     }
 
-    /* .active::before {
-        content: initial;
-        position: initial;
-        width: initial;
-        height: initial;
-        top: initial;
-        background: initial;
-        border-radius: initial;
-        display: initial;
-        margin: initial;
-    } */
 
     /* CODE FOR RESPONSIVE SCREEN */
     .links {
@@ -249,13 +243,13 @@ input[type=radio] {
     }
 
     .sub_ico {
-        column-gap: 10px !important;
+        column-gap: 30px !important;
         display: flex !important;
         justify-content: center !important;
         align-items: center;
     }
     .sub_ico a i {
-        font-size: 19px !important;
+        font-size: 28px !important;
     }
 
     .form {
@@ -292,7 +286,7 @@ input[type=radio] {
 h1 {
     font-style: normal;
     font-weight: 400;
-    font-size: 30px;
+    font-size: 26px;
     line-height: 60px;
     color: #FFFFFF;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -337,6 +331,7 @@ h1 {
 
 .caption .img_1 {
     font-size: 35px;
+    transform: scale(.9);
 }
 
 .caption>i {
@@ -352,10 +347,10 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: start;
-    column-gap: 31px;
+    column-gap: 38px;
     width: auto;
     height: auto;
-    margin-top: 43px;
+    margin-top: 50px;
 }
 
 .icons_top a>i {
@@ -386,17 +381,18 @@ h1 {
 
 .d_img {
     box-sizing: border-box;
-    width: 450px;
-    height: 536px;
+    width: 380px;
+    height: 417px;
     background-image: url(../img/me.png);
     background-repeat: no-repeat;
-    background-position-x: -75px;
-    background-position-y: -50px;
-    background-size: auto;
+    background-position-x: -1px;
+    background-position-y: -6px;
+    background-size: cover;
     border: 10px solid white;
     border-radius: 14px;
-
 }
+
+
 
 .icons_top {
     display: flex;
@@ -411,6 +407,7 @@ h1 {
     line-height: 24px;
     color: #FFFFFF;
     padding: 44px 0px;
+    padding-top: 78px;
     display: flex;
     align-items: center;
     column-gap: 12px;
@@ -708,7 +705,7 @@ h1 {
 .foot_img img {
     background: none;
     position: fixed;
-    right: -4px;
+    right: -58px;
     bottom: 0;
     transition: .6s ease transform;
     animation-name: thumb;

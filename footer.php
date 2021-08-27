@@ -16,21 +16,21 @@
         </div>
 
         <div class="icons_top1 icons_top">
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/deborah-adeyemi-9b8578172/" target="_blank" rel="noopener noreferrer">
                 <i class='bx bxl-linkedin-square' ></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.behance.net/adeyemideborah02" target="_blank" rel="noopener noreferrer">
                 <i class='bx bxl-behance' ></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://mobile.twitter.com/debbiesuco" target="_blank" rel="noopener noreferrer">
                 <i class='bx bxl-twitter' ></i>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://dribbble.com/debbiesuco" target="_blank" rel="noopener noreferrer">
                 <i class='bx bxl-dribbble' ></i>
             </a>
         </div>
 
-        <h3 class="s_t">Designed by me, developed by <a href="#" target="_blank" class="lk" rel="noopener noreferrer">dluckydev</a><i class='bx bxs-heart' ></i></h3>
+        <h3 class="s_t">Designed by me, developed by <a href="http://www.thinksoft.site/" target="_blank" class="lk" rel="noopener noreferrer">monaTech</a><i class='bx bxs-heart' ></i></h3>
     </div>
 </section>
 <div class="ripple" id="ripple">
