@@ -9,7 +9,7 @@ session_start();
 if (isset($_GET['set'])) 
 {
     $_SESSION['id'] = $_GET['set'];
-    echo $_SESSION['id'];
+
 }
 
 ?>
@@ -289,6 +289,7 @@ if (isset($_GET['set']))
     let elms = document.querySelector('.splide');
     let slide = new Splide(elms, {
         type: 'loop',
+        autoPlay : true,
         start: "<?php if(isset($_SESSION['id'])){ echo $_SESSION['id'];}else{ echo 0;} ?>",
         interval: 15000,
         classes: {
