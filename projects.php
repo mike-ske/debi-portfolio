@@ -11,6 +11,10 @@ if (isset($_GET['set']))
     $_SESSION['id'] = $_GET['set'];
 
 }
+else
+{
+    $_SESSION['id'] = 1;
+}
 
 ?>
     
