@@ -151,7 +151,7 @@ if (isset($_GET['set']))
                                 </p>
                                 <div class="buttons">
                                     <a href="https://www.flydanaair.com/" target="_blank" class="hd_btn purple_col">View Live Project</a>
-                                    <a href="https://drive.google.com/file/d/10brtpx5ePuJoqEIG_-Ja8ZT740cOrO9O/view?usp=sharing" class="hd_btn">View Case Study</a>
+                                    <a href="https://drive.google.com/file/d/10brtpx5ePuJoqEIG_-Ja8ZT740cOrO9O/view?usp=sharing" target="_blank" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
