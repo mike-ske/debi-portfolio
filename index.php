@@ -5,7 +5,7 @@
 
 <!-- ============ HEROE SECTION ============= -->
 
-<section class="heroe bg_main">
+<section class="heroe top_heroe bg_main">
     <div class="fg_center heroe_1">
         <div class="left_sec">
             <h1 class="h1">

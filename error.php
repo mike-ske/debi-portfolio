@@ -2,7 +2,18 @@
 <?php  require 'nav.php'?>
 
 <!-- ========= CONTACT ME SECTIONS -->
+<?php 
 
+if (isset($_GET['id'])) 
+{
+    $id = $_GET['id'];
+}
+else
+{
+    $id = 1;
+}
+
+?>
     
 <section class="heroe bg_main">
     
@@ -11,7 +22,7 @@
 
         <div class="left_sec">
             <div class="project_head">
-                <a href="./projects" class="head_1  arrow">
+                <a href="./projects?set=<?php echo $id?>" class="head_1  arrow">
                     <i class="icofont-arrow-left"></i>
                 </a>
             </div>

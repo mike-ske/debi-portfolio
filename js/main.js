@@ -30,20 +30,24 @@ var btns = header.getElementsByClassName("link_1");
 
 // ===================== ADD ACTIVE CLASS TO LINKS ================
 let path = window.location.pathname.split('/').pop()
-    console.log(path);
+  
 
-    var target = document.querySelectorAll('.links ul li a[href="'+path+'"]')
+    let target1 = document.getElementById('p1')
+    let target2 = document.getElementById('p2')
     let arrow1 = document.getElementById('arr1')
     let arrow2 = document.getElementById('arr2')
     let logo = document.getElementById('logo')
 
+    console.log(target1);
     if (path == 'contact') 
     {
         arrow2.classList.add('active');
+        target2.style.color = '#E0245E'
     }
     else if (path == 'projects') 
     {
         arrow1.classList.add('active');
+        target1.style.color = '#E0245E'
     }
     
 

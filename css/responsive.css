@@ -4,10 +4,7 @@
     display: none;
 }
 
-.side_text
-{
-    z-index: -1;
-}
+
 @media only screen and (max-width: 768px){
 
     .fg_center {
@@ -26,6 +23,10 @@
     }
     .dev_img_1 img{
         width: 50%;
+    }
+
+    .p_hd {
+        margin-top: 6px;
     }
 
     .caption .img_1{
@@ -135,7 +136,7 @@
     }
     .slide_container {
         flex-direction: column;
-        margin-bottom: 70px;
+        margin-bottom: 50px;
         row-gap: 30px;
     }
 
@@ -269,7 +270,7 @@
         width: 790px;
     }
     .set_img_1>img {
-        height: 665px !important;
+        /* height: 665px !important; */
     }
    
     
@@ -277,6 +278,21 @@
 
 @media only screen and (max-width: 2080px) and (min-width:1444px)
 {
+    
+    .heroe {
+        margin-top: 70px;
+    }
+
+    .set_img_1>img {
+        height: 470px;
+    }
+
+    .project_head {
+        margin-bottom: 40px;
+        margin-top: 40px;
+    }
+    
+
     .fg_center {
         width: 90%;
     }
@@ -289,6 +305,10 @@
         height: 580px;
         background-size: cover;
         background-position: center;
+    }
+
+    .hd_btn {
+        padding: 14px 16px;
     }
 
     h1 {
@@ -304,6 +324,10 @@
     }
     .caption img {
         transform: scale(1.2);
+    }
+
+    .nums {
+        top: 35px;
     }
 
     .nav_bar {
@@ -340,7 +364,7 @@
         height: 120px;
     }
     .line_1 {
-        width: 250px;
+        width: 150px;
     }
 
     .head_1 {
@@ -348,23 +372,31 @@
         line-height: 50px;
     }
     .p_hd {
-        font-size: 23px;
+        font-size: 20px;
         line-height: 50px;
     }
 
     .text_1>p {
-        font-size: 28px;
+        font-size: 20px;
     }
     .heroe_1 {
         column-gap: 78px;
     }
 
+    .top_heroe {
+        margin-top: 100px;
+    }
     .set_img_1 {
         width: auto;
         height: auto;
+        margin-left: 10px;
+    }
+
+    .slide_container{
+        column-gap: 100px;
     }
     .set_img_1>img{
-        height: 700px;
+        /* height: 700px; */
     }
     .splide .splide__pagination {
         bottom: -50px;
@@ -393,12 +425,13 @@
     }
 
     .typ_1 {
-        padding: 25px;
-        font-size: 25px;
+        padding: 16px;
+        font-size: 16px;
     }
 
     .display_btn {
         margin-bottom: 30px;
+        margin-top: 85px;
     }
     .hd_btn {
         padding: 20px 60px;
@@ -564,7 +597,7 @@
 
     .splide .splide__pagination__page 
     {
-        width: 7em !important;
+        width: 6em !important;
     }
 
     .splide .splide__pagination

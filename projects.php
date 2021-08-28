@@ -2,6 +2,18 @@
 <?php require 'nav.php' ?>
 <!-- ==================== PROJECT SECTION ======================== -->
 <!-- hr__main -->
+
+<?php 
+session_start();
+
+if (isset($_GET['set'])) 
+{
+    $_SESSION['id'] = $_GET['set'];
+    echo $_SESSION['id'];
+}
+
+?>
+    
 <section class="heroe bg_main">
 
     <div class="fg_center">
@@ -98,7 +110,7 @@
                                 </p>
                                 <div class="buttons">
                                     <a href="https://www.alerzo.com" class="hd_btn purple_col" target="_blank">View Live Project</a>
-                                    <a href="./error" class="hd_btn">View Case Study</a>
+                                    <a href="./error?id=1" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -139,7 +151,7 @@
                                 </p>
                                 <div class="buttons">
                                     <a href="https://www.flydanaair.com/" target="_blank" class="hd_btn purple_col">View Live Project</a>
-                                    <a href="./error" class="hd_btn">View Case Study</a>
+                                    <a href="./error?id=2" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -180,7 +192,7 @@
                                 </p>
                                 <div class="buttons">
                                     <a href="https://funconnect.ng/" class="hd_btn purple_col" target="_blank">View Live Project</a>
-                                    <a href="./error" class="hd_btn">View Case Study</a>
+                                    <a href="./error?id=3" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -221,8 +233,8 @@
                                     I was the only designer for this project
                                 </p>
                                 <div class="buttons">
-                                    <a href="https://drive.google.com/file/d/1bl3KDFcBKVR7-k6mFcsDK98GVPCMaAtd/view?usp=sharing" class="hd_btn purple_col">View Live Project</a>
-                                    <a href="./error" class="hd_btn">View Case Study</a>
+                                    <a href="./error?id=4" class="hd_btn purple_col">View Live Project</a>
+                                    <a href="https://drive.google.com/file/d/1bl3KDFcBKVR7-k6mFcsDK98GVPCMaAtd/view?usp=sharing" target="_blank" class="hd_btn">View Case Study</a>
                                 </div>
                             </div>
 
@@ -277,7 +289,7 @@
     let elms = document.querySelector('.splide');
     let slide = new Splide(elms, {
         type: 'loop',
-        autoplay: true,
+        start: "<?php if(isset($_SESSION['id'])){ echo $_SESSION['id'];}else{ echo 0;} ?>",
         interval: 15000,
         classes: {
             arrows: 'splide__arrows my-splide-arrows',

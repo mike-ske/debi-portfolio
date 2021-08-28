@@ -12,12 +12,12 @@
             <ul class="form" id="form">
                 <li class="link_1">
                     <span id="arr1">&downarrow;</span> 
-                    <a for="project" href="projects" class="p1">My Projects</a>
+                    <a for="project" href="projects" class="p1"  id="p1">My Projects</a>
                 </li>
              
                 <li class="link_1">
                     <span id="arr2">&downarrow;</span> 
-                    <a for="contact" href="contact" class="p2">Contact Me</a>
+                    <a for="contact" href="contact" class="p2"  id="p2">Contact Me</a>
                    
                 </li>
             </ul>
