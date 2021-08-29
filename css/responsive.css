@@ -269,10 +269,7 @@
     .d_img {
         width: 790px;
     }
-    .set_img_1>img {
-        /* height: 665px !important; */
-    }
-   
+ 
     
 }
 
@@ -395,9 +392,7 @@
     .slide_container{
         column-gap: 100px;
     }
-    .set_img_1>img{
-        /* height: 700px; */
-    }
+   
     .splide .splide__pagination {
         bottom: -50px;
     }

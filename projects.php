@@ -13,7 +13,7 @@ if (isset($_GET['set']))
 }
 else
 {
-    $_SESSION['id'] = 1;
+    $_SESSION['id'] = 0;
 }
 
 ?>
