@@ -3,11 +3,10 @@
 
 <!-- ========= CONTACT ME SECTIONS -->
 
-    
+
 <section class="heroe bg_main">
     
- 
-    <div class="fg_center heroe_1">
+<div class="fg_center heroe_1">
 
         <div class="left_sec">
             <div class="project_head">
