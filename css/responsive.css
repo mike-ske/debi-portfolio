@@ -427,6 +427,7 @@
     .typ_1 {
         padding: 16px;
         font-size: 16px;
+        justify-content: center;
     }
 
     .display_btn {
@@ -634,7 +635,7 @@
         padding: 8px 15px;
     }
     .splide .splide__pagination__page {
-        width: 5em !important;
+        width: 4em !important;
     }
     
     

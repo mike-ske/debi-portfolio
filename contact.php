@@ -24,7 +24,8 @@
             
             <div class="text_1">
                 <p>
-                Tell me more about the project by sending a message to <a href="mailto:deborahadeyemi96@gmail.com" class="yellow1">deborahadeyemi96@gmail.com</a> 
+                Tell me more about your project by sending a message to <a href="mailto:deborahadeyemi96@gmail.com" class="yellow1">deborahadeyemi96@gmail.com</a> 
+                or <a href="https://api.whatsapp.com/send?phone=2348185489740" target="_blank" class="yellow1">+2348185489740</a> (via whatsapp)
                 </p>
             </div>
 

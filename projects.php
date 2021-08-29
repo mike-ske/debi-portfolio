@@ -102,12 +102,10 @@ else
                                 </div>
                                 <h3 class="h1_hd">Alerzo</h3>
                                 <p class="p_hd">
-                                    A technology and services platform that transforms how informal 
-                                    retail stores operate. Alerzo is the all-in-one technology partner 
-                                    for informal retail store operators. With Alerzo, informal retailers 
-                                    can recieve and make cashless payments, track store profitability 
-                                    better and facilitate a portfolio of digital services including airtime 
-                                    purchase, bill payments as well as processing peer-to-peer transfers.
+                                    A technology and services platform that transforms how informal retail stores operate. 
+                                    With Alerzo, informal retailers can receive and make cashless payments, track store 
+                                    profitability better and facilitate a portfolio of digital services including airtime purchase, 
+                                    bill payments as well as processing peer-to-peer transfers.
 
                                     <br><br>
                                     The designs were done by a team that I was part of.

@@ -555,7 +555,9 @@ h1 {
 }
 
 .hd_btn:hover {
-    filter: brightness(0.5);
+    background: #ffffff;
+    border: none;
+    color: #E0245E;
 }
 
 .flex {
@@ -896,6 +898,7 @@ h1 {
     text-transform: uppercase;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .t1 {
