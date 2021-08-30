@@ -15,7 +15,6 @@ else
 {
     $_SESSION['id'] = 0;
 }
-
 ?>
     
 <section class="heroe bg_main">
