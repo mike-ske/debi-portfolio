@@ -17,7 +17,7 @@ else
 }
 ?>
     
-<section class="heroe bg_main">
+<section class="heroe bg_main set_h">
 
     <div class="fg_center">
         <div class="splide" id="splide">

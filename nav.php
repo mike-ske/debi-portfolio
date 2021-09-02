@@ -40,7 +40,8 @@
         </div>
 
         <div class="bars">
-            <i class='bx bx-menu box_icon' id="box_i"></i>
+            <i class='bx bx-menu' id="open_ico"></i>
+            <i class='bx bx-x cancel' id="close_ico"></i>
         </div>
     </div>
 </section>

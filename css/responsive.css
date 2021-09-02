@@ -258,10 +258,13 @@
     }
 
 }
-@media only screen and (max-width: 1660px) and (min-width:1440px)
+@media only screen and (max-width: 1670px) and (min-width:1440px)
 {
     .set_img_1>img {
         height: 300px !important;
+    }
+    .set_h {
+        margin-top: 34px !important;
     }
     .p_hd {
         font-size: 16px !important;
@@ -270,6 +273,9 @@
     }
     .h1_hd {
         font-size: 30px !important;
+    }
+    .display_btn {
+        margin-bottom: 8px !important;
     }
 
     .hd_btn {

@@ -76,9 +76,22 @@ let path = window.location.pathname.split('/').pop()
 
 let main__nav = document.getElementsByClassName("links")[0];
 let nav__icon = document.getElementsByClassName("bars")[0];
+let cl_se = document.getElementById('close_ico');
+let bar = document.getElementById('open_ico');
 
+
+let flag = 1;
 nav__icon.addEventListener('click', function () {
-    main__nav.classList.toggle("show");
+       
+    if ( main__nav.classList.toggle("show")) 
+    {
+        bar.classList.add('cancel');
+        cl_se.classList.remove('cancel');
+    }
+    else{
+        bar.classList.remove('cancel');
+        cl_se.classList.add('cancel');
+    }
 })
 
 // ============ CODE TO SET ACTIVE MENU FOOTER SECTION
